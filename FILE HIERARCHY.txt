@@ -1,0 +1,45 @@
+multimodal-agentic-assistant/
+│
+├── .env.example              ← copy this to .env
+├── .env                      ← YOUR API keys go here (create this)
+├── main.py                   ← entry point
+├── requirements.txt
+├── README.md
+│
+├── config/
+│   ├── __init__.py
+│   ├── settings.py
+│   └── logging_config.py
+│
+├── agents/
+│   ├── __init__.py
+│   ├── base_agent.py
+│   ├── react_agent.py
+│   ├── plan_execute_agent.py
+│   └── test_agents_offline.py
+│
+├── tools/
+│   ├── __init__.py
+│   ├── web_search_tool.py
+│   ├── code_executor_tool.py
+│   ├── vision_tool.py
+│   ├── calculator_tool.py
+│   ├── wikipedia_tool.py
+│   ├── tool_registry.py
+│   └── test_tools_offline.py
+│
+├── benchmark/
+│   ├── __init__.py
+│   ├── metrics.py
+│   ├── harness.py
+│   ├── reporter.py
+│   └── test_benchmark_offline.py
+│
+├── ui/
+│   ├── __init__.py
+│   └── app.py
+│
+└── data/
+    ├── queries/
+    │   └── benchmark_queries.json
+    └── results/              ← benchmark CSVs saved here

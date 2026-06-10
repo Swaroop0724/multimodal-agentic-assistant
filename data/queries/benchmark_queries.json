@@ -1,0 +1,352 @@
+[
+  {
+    "id": "WS001",
+    "category": "web_search",
+    "query": "What are the latest breakthroughs in quantum computing in 2024?",
+    "expected_tool": "web_search",
+    "reference_answer": "quantum computing breakthroughs error correction logical qubits"
+  },
+  {
+    "id": "WS002",
+    "category": "web_search",
+    "query": "Who won the 2024 Nobel Prize in Physics and for what?",
+    "expected_tool": "web_search",
+    "reference_answer": "Nobel Prize Physics 2024 artificial neural networks machine learning"
+  },
+  {
+    "id": "WS003",
+    "category": "web_search",
+    "query": "What is the current price of Bitcoin?",
+    "expected_tool": "web_search",
+    "reference_answer": "bitcoin price cryptocurrency market"
+  },
+  {
+    "id": "WS004",
+    "category": "web_search",
+    "query": "What are the key features of Python 3.13?",
+    "expected_tool": "web_search",
+    "reference_answer": "Python 3.13 features free-threaded GIL JIT compiler"
+  },
+  {
+    "id": "WS005",
+    "category": "web_search",
+    "query": "What is the latest version of LangChain and its new features?",
+    "expected_tool": "web_search",
+    "reference_answer": "LangChain version updates features"
+  },
+  {
+    "id": "WS006",
+    "category": "web_search",
+    "query": "What happened at Google I/O 2024?",
+    "expected_tool": "web_search",
+    "reference_answer": "Google IO 2024 Gemini AI announcements"
+  },
+  {
+    "id": "WS007",
+    "category": "web_search",
+    "query": "What is the current state of AGI research?",
+    "expected_tool": "web_search",
+    "reference_answer": "AGI artificial general intelligence research 2024"
+  },
+  {
+    "id": "WS008",
+    "category": "web_search",
+    "query": "What are the best open-source LLMs available today?",
+    "expected_tool": "web_search",
+    "reference_answer": "open source LLM Llama Mistral Phi models"
+  },
+  {
+    "id": "WS009",
+    "category": "web_search",
+    "query": "What is Anthropic Claude's latest model?",
+    "expected_tool": "web_search",
+    "reference_answer": "Anthropic Claude model capabilities"
+  },
+  {
+    "id": "WS010",
+    "category": "web_search",
+    "query": "What are the latest AI regulations in Europe?",
+    "expected_tool": "web_search",
+    "reference_answer": "EU AI Act regulations compliance"
+  },
+  {
+    "id": "CE001",
+    "category": "code_execution",
+    "query": "Write and run Python code to calculate the first 20 Fibonacci numbers",
+    "expected_tool": "code_executor",
+    "reference_answer": "0 1 1 2 3 5 8 13 21 34 55 89 144 233 377 610 987 1597 2584 4181"
+  },
+  {
+    "id": "CE002",
+    "category": "code_execution",
+    "query": "Write Python code to find all prime numbers between 1 and 100 using the Sieve of Eratosthenes",
+    "expected_tool": "code_executor",
+    "reference_answer": "2 3 5 7 11 13 17 19 23 29 31 37 41 43 47 53 59 61 67 71 73 79 83 89 97"
+  },
+  {
+    "id": "CE003",
+    "category": "code_execution",
+    "query": "Create a Python function that sorts a list using merge sort and test it with [64, 34, 25, 12, 22, 11, 90]",
+    "expected_tool": "code_executor",
+    "reference_answer": "11 12 22 25 34 64 90"
+  },
+  {
+    "id": "CE004",
+    "category": "code_execution",
+    "query": "Write Python code to implement a binary search tree with insert and search operations",
+    "expected_tool": "code_executor",
+    "reference_answer": "binary search tree insert search traversal"
+  },
+  {
+    "id": "CE005",
+    "category": "code_execution",
+    "query": "Calculate the matrix multiplication of [[1,2],[3,4]] and [[5,6],[7,8]] using numpy",
+    "expected_tool": "code_executor",
+    "reference_answer": "19 22 43 50"
+  },
+  {
+    "id": "CE006",
+    "category": "code_execution",
+    "query": "Write Python to count word frequency in a sample paragraph and show top 5 words",
+    "expected_tool": "code_executor",
+    "reference_answer": "word frequency count dictionary"
+  },
+  {
+    "id": "CE007",
+    "category": "code_execution",
+    "query": "Implement a stack class in Python with push, pop, peek operations and test it",
+    "expected_tool": "code_executor",
+    "reference_answer": "stack push pop peek empty"
+  },
+  {
+    "id": "CE008",
+    "category": "code_execution",
+    "query": "Write Python code to generate and plot a sine wave using matplotlib",
+    "expected_tool": "code_executor",
+    "reference_answer": "sine wave matplotlib plot numpy"
+  },
+  {
+    "id": "CE009",
+    "category": "code_execution",
+    "query": "Create a Python decorator that measures and prints function execution time",
+    "expected_tool": "code_executor",
+    "reference_answer": "decorator timer execution time function"
+  },
+  {
+    "id": "CE010",
+    "category": "code_execution",
+    "query": "Write a Python class implementing a linked list with append, delete, and display methods",
+    "expected_tool": "code_executor",
+    "reference_answer": "linked list node append delete traverse"
+  },
+  {
+    "id": "CALC001",
+    "category": "calculator",
+    "query": "What is the compound interest on $10,000 at 7% annual rate for 10 years?",
+    "expected_tool": "calculator",
+    "reference_answer": "19671.51"
+  },
+  {
+    "id": "CALC002",
+    "category": "calculator",
+    "query": "Calculate the area and circumference of a circle with radius 15.7 cm",
+    "expected_tool": "calculator",
+    "reference_answer": "775.22 98.59"
+  },
+  {
+    "id": "CALC003",
+    "category": "calculator",
+    "query": "What is 2 to the power of 32?",
+    "expected_tool": "calculator",
+    "reference_answer": "4294967296"
+  },
+  {
+    "id": "CALC004",
+    "category": "calculator",
+    "query": "Solve: if a train travels 240 miles in 3.5 hours, what is its average speed?",
+    "expected_tool": "calculator",
+    "reference_answer": "68.57"
+  },
+  {
+    "id": "CALC005",
+    "category": "calculator",
+    "query": "Calculate the standard deviation of: 4, 8, 15, 16, 23, 42",
+    "expected_tool": "calculator",
+    "reference_answer": "12.96"
+  },
+  {
+    "id": "CALC006",
+    "category": "calculator",
+    "query": "What is log base 2 of 1024?",
+    "expected_tool": "calculator",
+    "reference_answer": "10"
+  },
+  {
+    "id": "CALC007",
+    "category": "calculator",
+    "query": "Convert 98.6 Fahrenheit to Celsius",
+    "expected_tool": "calculator",
+    "reference_answer": "37"
+  },
+  {
+    "id": "CALC008",
+    "category": "calculator",
+    "query": "Calculate the hypotenuse of a right triangle with legs 9 and 12",
+    "expected_tool": "calculator",
+    "reference_answer": "15"
+  },
+  {
+    "id": "CALC009",
+    "category": "calculator",
+    "query": "What is 15% of 340 plus 22% of 180?",
+    "expected_tool": "calculator",
+    "reference_answer": "90.6"
+  },
+  {
+    "id": "CALC010",
+    "category": "calculator",
+    "query": "Calculate the monthly payment on a $300,000 mortgage at 6.5% for 30 years",
+    "expected_tool": "calculator",
+    "reference_answer": "1896.20"
+  },
+  {
+    "id": "WIKI001",
+    "category": "wikipedia_search",
+    "query": "Explain the theory of general relativity and its key principles",
+    "expected_tool": "wikipedia_search",
+    "reference_answer": "general relativity spacetime curvature gravity Einstein"
+  },
+  {
+    "id": "WIKI002",
+    "category": "wikipedia_search",
+    "query": "What is the history and significance of the Turing Test?",
+    "expected_tool": "wikipedia_search",
+    "reference_answer": "Turing test imitation game machine intelligence"
+  },
+  {
+    "id": "WIKI003",
+    "category": "wikipedia_search",
+    "query": "Explain how transformer neural networks work",
+    "expected_tool": "wikipedia_search",
+    "reference_answer": "transformer attention mechanism encoder decoder"
+  },
+  {
+    "id": "WIKI004",
+    "category": "wikipedia_search",
+    "query": "What is CRISPR and how does it work?",
+    "expected_tool": "wikipedia_search",
+    "reference_answer": "CRISPR Cas9 gene editing DNA"
+  },
+  {
+    "id": "WIKI005",
+    "category": "wikipedia_search",
+    "query": "Explain the concept of quantum entanglement",
+    "expected_tool": "wikipedia_search",
+    "reference_answer": "quantum entanglement particles correlation superposition"
+  },
+  {
+    "id": "WIKI006",
+    "category": "wikipedia_search",
+    "query": "What is the Von Neumann architecture?",
+    "expected_tool": "wikipedia_search",
+    "reference_answer": "Von Neumann architecture CPU memory stored program"
+  },
+  {
+    "id": "WIKI007",
+    "category": "wikipedia_search",
+    "query": "What is gradient descent in machine learning?",
+    "expected_tool": "wikipedia_search",
+    "reference_answer": "gradient descent optimization loss function learning rate"
+  },
+  {
+    "id": "WIKI008",
+    "category": "wikipedia_search",
+    "query": "Explain the CAP theorem in distributed systems",
+    "expected_tool": "wikipedia_search",
+    "reference_answer": "CAP theorem consistency availability partition tolerance"
+  },
+  {
+    "id": "WIKI009",
+    "category": "wikipedia_search",
+    "query": "What is the MapReduce programming model?",
+    "expected_tool": "wikipedia_search",
+    "reference_answer": "MapReduce distributed computing Google parallel processing"
+  },
+  {
+    "id": "WIKI010",
+    "category": "wikipedia_search",
+    "query": "Explain the blockchain technology and how it works",
+    "expected_tool": "wikipedia_search",
+    "reference_answer": "blockchain distributed ledger consensus cryptography"
+  },
+  {
+    "id": "MULTI001",
+    "category": "multi_tool",
+    "query": "Search for the current GDP of USA, then calculate what percentage it is of world GDP ($105 trillion)",
+    "expected_tool": "web_search+calculator",
+    "reference_answer": "USA GDP percentage world economy"
+  },
+  {
+    "id": "MULTI002",
+    "category": "multi_tool",
+    "query": "Find the formula for compound interest, then calculate $5000 at 8% for 5 years",
+    "expected_tool": "wikipedia_search+calculator",
+    "reference_answer": "7346.64"
+  },
+  {
+    "id": "MULTI003",
+    "category": "multi_tool",
+    "query": "Look up how the quicksort algorithm works, then write and run Python code implementing it",
+    "expected_tool": "wikipedia_search+code_executor",
+    "reference_answer": "quicksort partition pivot recursive"
+  },
+  {
+    "id": "MULTI004",
+    "category": "multi_tool",
+    "query": "Search for the current population of Tokyo, then calculate the population density given area 2194 sq km",
+    "expected_tool": "web_search+calculator",
+    "reference_answer": "Tokyo population density per square kilometer"
+  },
+  {
+    "id": "MULTI005",
+    "category": "multi_tool",
+    "query": "Find what RSA encryption is, then write Python code to demonstrate a simple RSA key pair generation",
+    "expected_tool": "wikipedia_search+code_executor",
+    "reference_answer": "RSA encryption public private key prime numbers"
+  },
+  {
+    "id": "MULTI006",
+    "category": "multi_tool",
+    "query": "Search for latest AI chip benchmark scores, then calculate which has best performance per watt",
+    "expected_tool": "web_search+calculator",
+    "reference_answer": "AI chip performance efficiency benchmark"
+  },
+  {
+    "id": "MULTI007",
+    "category": "multi_tool",
+    "query": "Look up the distance from Earth to Mars, then calculate how long light takes to travel that distance",
+    "expected_tool": "wikipedia_search+calculator",
+    "reference_answer": "Mars distance light travel time minutes"
+  },
+  {
+    "id": "MULTI008",
+    "category": "multi_tool",
+    "query": "Find the definition of Big O notation, then write Python code showing O(n), O(n^2), and O(log n) examples",
+    "expected_tool": "wikipedia_search+code_executor",
+    "reference_answer": "Big O complexity linear quadratic logarithmic"
+  },
+  {
+    "id": "MULTI009",
+    "category": "multi_tool",
+    "query": "Search for current NVIDIA stock price and calculate its P/E ratio if earnings per share is $11.93",
+    "expected_tool": "web_search+calculator",
+    "reference_answer": "NVIDIA stock price earnings ratio valuation"
+  },
+  {
+    "id": "MULTI010",
+    "category": "multi_tool",
+    "query": "Look up what the Pythagorean theorem is, then write a Python program that checks if three numbers form a right triangle",
+    "expected_tool": "wikipedia_search+code_executor",
+    "reference_answer": "Pythagorean theorem right triangle sides"
+  }
+]
